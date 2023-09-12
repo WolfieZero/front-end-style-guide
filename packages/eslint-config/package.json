@@ -1,0 +1,69 @@
+{
+  "name": "@wolfiezero/eslint-config",
+  "version": "1.0.0",
+  "description": "Sharable config for ESLint",
+  "keywords": [],
+  "homepage": "https://github.com/wolfiezero/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/wolfiezero/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfiezero/eslint-config.git"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Neil Sweeney",
+    "email": "neil@enhko.com",
+    "url": "https://wolfiezero.com"
+  },
+  "files": [
+    "index.js",
+    "prettier.js",
+    "typescript/index.js",
+    "typescript/prettier.js",
+    "typescript/react.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "prettier": "../prettier-config/.prettierrc.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-config-xo": "^0.43.1",
+    "eslint-config-xo-typescript": "^1.0.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unicorn": "^48.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "np": "^8.0.4",
+    "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-config-xo": "^0.43.1",
+    "eslint-config-xo-typescript": "^1.0.1",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unicorn": "^48.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

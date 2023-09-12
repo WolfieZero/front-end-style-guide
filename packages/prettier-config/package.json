@@ -1,0 +1,24 @@
+{
+  "name": "@wolfiezero/prettier-config",
+  "version": "1.0.0",
+  "description": "Sharable config for Prettier",
+  "license": "ISC",
+  "author": {
+    "name": "Neil Sweeney",
+    "email": "neil@enhko.com",
+    "url": "https://wolfiezero.com"
+  },
+  "main": ".prettierrc.js",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "np": {
+    "tests": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "front-end-style-guide",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "prettier": "./packages/prettier-config/.prettierrc.js",
+  "scripts": {
+    "publish-eslint": "npm publish --workspace @wolfiezero/eslint-config",
+    "publish-prettier": "npm publish --workspace @wolfiezero/prettier-config"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
